@@ -1,0 +1,44 @@
+.from-container{
+    border: 1px solid grey;
+    margin: auto;
+    width: 50%;
+    height: 280px;
+    align-items: center;
+    margin-top: 2%;
+ }
+ input{
+     padding: 5px;
+     font-size: 1em;
+ }
+ .files{
+     display: flex;
+     margin: 3%;
+     column-gap: 5%;
+ }
+ .files>.file-name-box{
+    width:50%;
+ }
+ .two-containers{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 3%;
+     align-items: center;
+ }
+ .two-containers>input{
+     width: 40%;
+     margin: 3%;
+ }
+.description-container>input{
+    width: 90%;
+    margin-bottom: 3%;
+}
+.btn{
+    margin-bottom: 3%;
+}
+ button{
+     width: 15%;
+     font-size: large;
+ }
+ button:hover{
+     cursor: pointer;
+ }

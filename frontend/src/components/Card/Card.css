@@ -1,0 +1,58 @@
+.card-container{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30em;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card-header-top-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 2%;
+}
+.card-header-name{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+}
+.card-header-location{
+    color: #707070;
+}
+.card-img-folder > img{
+    width: 30em;
+}
+
+.likes-shares-date{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-items: center;
+}
+.date-print{
+    font-size: 1.5em;
+}
+.likes>img{
+    width: 2em;
+}
+.share>img{
+    width: 2em;
+    margin-left: 20px;;
+}
+.likes-count{
+    font-size: 1em;
+    float: left;
+    margin-top: 0;
+    margin-left: 2%;
+}
+.red-clr:hover{
+cursor: pointer;
+fill: red;
+}
+.bottom-box>.description-part{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight:bolder;
+    text-align: left;
+    margin-left: 2%;
+}

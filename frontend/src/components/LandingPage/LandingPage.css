@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    border: 50px solid #E7E7E7;
+     
+    align-self: center;
+}
+.container > .img-container >img{
+    width: 400px;
+    height: 90%;
+    margin: 20px;
+    margin-left: 150px;
+    align-self: center;
+    margin-top: 30px;
+}
+.container>.text-btn-container{
+    align-self: center;
+    margin-right: 25%;
+}
+.container>.text-btn-container>.landing-text{
+    font: normal normal normal 3em Palatino;
+    color: #006238;
+    margin-bottom: 1%;
+}
+.landing-btn{
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    font-weight: bold;
+    color: #006238;
+    border: 2px solid #006238;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
